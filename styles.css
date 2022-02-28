@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+#mission {
+    display: flex;
+    height: 500px;
+    background-image: url('./resources/images/code-screen.png');
+    padding-top: 35px;
+}
+
+#mission .content {
+    margin: auto;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+}
+
+#topics {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.language {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.language img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+.language span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+#about-us {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.footer {
+    font-size: 1rem;
+    text-align: left;
+}
